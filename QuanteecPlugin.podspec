@@ -1,0 +1,30 @@
+#
+#  Be sure to run `pod spec lint QuanteecCore.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
+#
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#
+
+Pod::Spec.new do |spec|
+  spec.name         = "QuanteecCore"
+  spec.version      = "0.1.0"
+  spec.summary      = "QuanteecCore."
+
+  spec.homepage     = "http://google.com"
+
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+
+  spec.author    = "csnagy"
+
+  spec.ios.deployment_target = "15.6"
+  spec.tvos.deployment_target = "15.6"
+
+  spec.swift_version = "4.2"
+
+  spec.source       = { :https://github.com/Quanteec/quanteec_core_pod/blob/main/Frameworks.zip' }
+  spec.vendored_frameworks = 'Frameworks/datachannel_wrapper.xcframework', 'Frameworks/QuanteecCore.xcframework'
+
+  spec.exclude_files = "Classes/Exclude"
+  
+end

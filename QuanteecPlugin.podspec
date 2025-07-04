@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "4.2"
 
-  spec.source       = { :https://github.com/Quanteec/quanteec_core_pod/blob/main/Frameworks.zip' }
+  spec.source       = { :http => 'https://github.com/Quanteec/quanteec_core_pod/blob/main/Frameworks.zip' }
   spec.vendored_frameworks = 'Frameworks/datachannel_wrapper.xcframework', 'Frameworks/QuanteecCore.xcframework'
 
   spec.exclude_files = "Classes/Exclude"

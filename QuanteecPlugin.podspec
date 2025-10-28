@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "QuanteecCore"
-  spec.version      = "0.2.8"
+  spec.version      = "0.2.9"
   spec.summary      = "QuanteecCore."
 
   spec.homepage     = "http://google.com"
